@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /tags/*
+Disallow: /docs/search/
+Disallow: /book/*
+Disallow: /archive/*
+Disallow: /volume/*
+Disallow: /includes/*
+
+Sitemap: {{ "sitemap.xml" | absURL }}
